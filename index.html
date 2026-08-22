@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>About me - Ziwei's Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Academic homepage of Ziwei Huang, a CS PhD student at Emory University.">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <div class="masthead">
+    <div class="masthead__inner-wrap">
+      <nav id="site-nav" class="greedy-nav">
+        <button class="nav-toggle" type="button" aria-label="Open menu"><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="index.html">Ziwei's Homepage</a></li>
+          <li class="masthead__menu-item"><a href="#publications">Publications</a></li>
+          <li class="masthead__menu-item"><a href="#news">News</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <div id="main" role="main">
+    <div class="sidebar sticky">
+      <div class="author__avatar">
+        <img src="https://avatars.githubusercontent.com/u/201038877?s=400&v=4" alt="Ziwei Huang">
+      </div>
+      <div class="author__content">
+        <h3 class="author__name">Ziwei Huang</h3>
+        <p class="author__bio">CS PhD student @ Emory</p>
+      </div>
+      <div class="author__urls-wrapper">
+        <button class="follow-btn" type="button">Follow</button>
+        <ul class="author__urls social-icons">
+          <li class="author__desktop"><i class="fa-solid fa-location-dot"></i>Atlanta, Georgia</li>
+          <li><a href="mailto:ziwei.huang@emory.edu"><i class="fas fa-fw fa-envelope"></i>Email</a></li>
+          <li><a href="https://scholar.google.com/citations?user=e4RplSoAAAAJ"><i class="ai ai-google-scholar"></i>Google Scholar</a></li>
+          <li><a href="https://github.com/ziweileonhuang"><i class="fab fa-fw fa-github"></i>GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <article class="page">
+      <h1 class="page__title">About me</h1>
+      <section class="page__content">
+        <p>
+          I am a Ph.D. student in
+          <a href="https://computerscience.emory.edu/">Computer Science</a>
+          at <a href="https://www.emory.edu/">Emory University</a>,
+          advised by <a href="https://www.cs.emory.edu/~wjin30/">Prof. Wei Jin</a>.
+          Previously, I was fortunate to work with
+          <a href="https://zhiguangcaosg.github.io/">Prof. Zhiguang Cao</a>
+          and <a href="https://yining043.github.io/publications/">Dr. Yining Ma</a>.
+          I received my M.S. from the <a href="https://www.nus.edu.sg/">National University of Singapore</a>
+          and completed my undergraduate studies at <a href="https://en.nankai.edu.cn/">Nankai University</a>.
+        </p>
+        <p>
+          My current research focuses on machine learning for time series data.
+          I spend time thinking about:
+        </p>
+        <ol class="research-questions">
+          <li>whether there exists a universal architecture for time series, or whether domain-specific inductive biases are necessary;
+          </li>
+          <li>what minimal inductive biases make vanilla Transformers work well on time series;</li>
+          <li>what are the right scaling recipes for time series models (model size, data, context length, or something else);</li>
+          <li>what knowledge transfers across temporal domains, and why large-scale pretraining helps on unseen data;</li>
+          <li>how specialized numerical time series models should collaborate with general-purpose LLM agents.</li>
+        </ol>
+        <p>
+          Previously, I worked on neural combinatorial optimization,
+          where we explored how AI can help solve NP-hard decision-making problems in the real world.
+        </p>
+
+        <h1 id="publications">Publications</h1>
+        <p>You can also find my articles on <a href="https://scholar.google.com/citations?user=e4RplSoAAAAJ">my Google Scholar profile</a>.</p>
+
+        <h2>Under Review</h2>
+        <ol class="pub-list">
+          <li>
+            <span class="pub-title">GECO: Towards Generic and Efficient Architectures for Graph Neural Combinatorial Optimization,</span>
+            <span class="pub-authors"><strong>Ziwei Huang</strong>, Yining Ma, Hang Yi, Yaoxin Wu, Cathy Wu, and Zhiguang Cao.</span>
+            <span class="pub-venue">Submitted to <em>Advances in Neural Information Processing Systems</em> <span class="pub-short">(NeurIPS)</span>, 2026.</span>
+          </li>
+          <li>
+            <span class="pub-title">MixRoute: Rethinking Single-Distribution Training for Generalizable Neural Routing,</span>
+            <span class="pub-authors">Hang Yi, <strong>Ziwei Huang</strong>, Yining Ma, and Zhiguang Cao.</span>
+            <span class="pub-venue">Submitted to <em>Advances in Neural Information Processing Systems</em> <span class="pub-short">(NeurIPS)</span>, 2026.</span>
+          </li>
+          <li>
+            <span class="pub-title">DiffuSchEd: Encoder-only Diffusion for Job Shop Scheduling in Continuous Representation Space,</span>
+            <span class="pub-authors">Xiangjie Xiao, <strong>Ziwei Huang</strong>, Ni Zhang, Cong Zhang, and Zhiguang Cao.</span>
+            <span class="pub-venue">Submitted to <em>AAAI Conference on Artificial Intelligence</em> <span class="pub-short">(AAAI)</span>, 2027.</span>
+          </li>
+        </ol>
+
+        <h2>Conference Papers</h2>
+        <ol class="pub-list">
+          <li>
+            <span class="pub-title">AGDN: Learning to Solve Traveling Salesman Problem with Anisotropic Graph Diffusion Network,</span>
+            <span class="pub-authors">Bolin Shen, <strong>Ziwei Huang</strong>, Zhiguang Cao, and Yushun Dong.</span>
+            <span class="pub-venue"><em>ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</em> <span class="pub-short">(SIGKDD)</span>, 2026.
+              <span class="pub-links">
+                <a href="https://arxiv.org/abs/2606.19185">[Paper]</a>
+                <a href="https://github.com/LabRAI/AGDN">[Code]</a>
+              </span>
+            </span>
+          </li>
+          <li>
+            <span class="pub-title">RADAR: Learning to Route with Asymmetry-aware DistAnce Representations,</span>
+            <span class="pub-authors">Hang Yi, <strong>Ziwei Huang</strong>, Yining Ma, and Zhiguang Cao.</span>
+            <span class="pub-venue"><em>International Conference on Learning Representations</em> <span class="pub-short">(ICLR)</span>, 2026.
+              <span class="pub-links">
+                <a href="https://openreview.net/forum?id=lWdxX5s9T1">[Paper]</a>
+                <a href="https://github.com/yihang0410/RADAR">[Code]</a>
+              </span>
+            </span>
+          </li>
+          <li>
+            <span class="pub-title">PEOAT: Personalization-Guided Evolutionary Question Assembly for One-Shot Adaptive Testing,</span>
+            <span class="pub-authors">Xiaoshan Yu, <strong>Ziwei Huang</strong>, Shangshang Yang, Ziwen Wang, Haiping Ma, and Xingyi Zhang.</span>
+            <span class="pub-venue"><em>AAAI Conference on Artificial Intelligence</em> <span class="pub-short">(AAAI)</span>, 2026.
+              <span class="pub-links">
+                <a href="https://ojs.aaai.org/index.php/AAAI/article/view/40022">[Paper]</a>
+              </span>
+            </span>
+          </li>
+          <li>
+            <span class="pub-title">Rethinking Light Decoder-based Solvers for Vehicle Routing Problems,</span>
+            <span class="pub-authors"><strong>Ziwei Huang</strong>, Jianan Zhou, Zhiguang Cao, and Yixin Xu.</span>
+            <span class="pub-venue"><em>International Conference on Learning Representations</em> <span class="pub-short">(ICLR)</span>, 2025.
+              <span class="pub-links">
+                <a href="https://openreview.net/forum?id=4pRwkYpa2u">[Paper]</a>
+                <a href="https://github.com/ziweileonhuang/reld-nco">[Code]</a>
+              </span>
+            </span>
+          </li>
+        </ol>
+
+        <h1 id="news">News</h1>
+        <ul>
+          <li>[2026.08] Started my Ph.D. in CS at Emory University, advised by Prof. Wei Jin.</li>
+          <li>[2026.05] Our paper “AGDN: Learning to Solve Traveling Salesman Problem with Anisotropic Graph Diffusion Network” was accepted by KDD 2026.</li>
+          <li>[2026.01] Our paper “RADAR: Learning to Route with Asymmetry-aware DistAnce Representations” was accepted by ICLR 2026.</li>
+          <li>[2025.12] Our paper “PEOAT: Personalization-Guided Evolutionary Question Assembly for One-Shot Adaptive Testing” was accepted by AAAI 2026.</li>
+          <li>[2025.01] Our paper “Rethinking Light Decoder-based Solvers for Vehicle Routing Problems” was accepted by ICLR 2025.</li>
+        </ul>
+      </section>
+    </article>
+  </div>
+
+  <div class="page__footer">
+    <footer>
+      <div class="page__footer-follow">
+        <ul>
+          <li><strong>Follow:</strong></li>
+          <li><a href="https://github.com/ziweileonhuang"><i class="fab fa-github"></i> GitHub</a></li>
+        </ul>
+      </div>
+      <div class="page__footer-copyright">
+        &copy; 2026 Ziwei Huang. Style adapted from
+        <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>,
+        a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/">Minimal Mistakes</a>.
+      </div>
+    </footer>
+  </div>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
